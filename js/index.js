@@ -1,5 +1,5 @@
 $('.header-links').hover(
     function(){
-        $('.header-links').addClass('bold');
+        $('.header-links').addClass("bold");
     }
 );
