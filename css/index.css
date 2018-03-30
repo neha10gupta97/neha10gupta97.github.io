@@ -1,0 +1,9 @@
+/* Generic classes */
+.bold{
+    font-weight:bold;
+}
+
+.header{
+    background:#000060;
+    color:#fff;
+}
