@@ -1,9 +1,16 @@
 /* Generic classes */
+body{
+  background-color: #343334;
+}
 .bold{
     font-weight:bold;
 }
 
+
 .header{
-    background:#000060;
+    background:#584b4f;
     color:#fff;
+}
+.home-section{
+  height: 100%vh;
 }
