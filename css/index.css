@@ -2,15 +2,29 @@
 body{
   background-color: #343334;
 }
-.bold{
-    font-weight:bold;
-}
 
 
-.header{
+
+.main-header{
     background:#584b4f;
     color:#fff;
+    z-index:10;
+    position:fixed;
+    top:0;
 }
 .home-section{
-  height: 100%vh;
+  height: 610px;
+    margin-top: 65px;
+}
+.home-hello{
+  font-size: 4em;
+  line-height: 100px
+}
+.home-first-name,.home-last-name{
+  font-size:10em;
+  line-height: 110px
+}
+.home-description{
+  font-size:2em;
+  line-height: 45px;
 }
