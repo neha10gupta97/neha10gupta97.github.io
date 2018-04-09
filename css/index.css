@@ -1,20 +1,21 @@
 /* Generic classes */
 body{
   background-color: #343334;
+  color: white;
 }
 
 
 
 .main-header{
-    background:#584b4f;
-    color:#fff;
-    z-index:10;
-    position:fixed;
-    top:0;
+  background:#584b4f;
+  color:#fff;
+  z-index:10;
+  position:fixed;
+  top:0;
 }
 .home-section{
   height: 610px;
-    margin-top: 65px;
+  margin-top: 65px;
 }
 .home-hello{
   font-size: 4em;
@@ -27,4 +28,8 @@ body{
 .home-description{
   font-size:2em;
   line-height: 45px;
+}
+.section-heading{
+  font-size: 3em;
+  color: white;
 }
