@@ -15,28 +15,20 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-</head>
+    <script>
+      $(function(){
+        $('#header').load('header.html');
+      });
+    </script>
 </head>
 <body>
     <section>
-      <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header main-header">
-          <div class="mdl-layout__header-row">
-            <!-- Title -->
-            <span class="mdl-layout-title">Neha Gupta</span>
-            <!-- Add spacer, to align navigation to the right -->
-            <div class="mdl-layout-spacer"></div>
-            <!-- Navigation. We hide it in small screens. -->
-            <nav class="mdl-navigation">
-              <a class="mdl-navigation__link header-links" href="">Home</a>
-              <a class="mdl-navigation__link header-links" href="">About</a>
-              <a class="mdl-navigation__link header-links" href="">Resume</a>
-              <a class="mdl-navigation__link header-links" href="">Projects</a>
-            </nav>
-          </div>
-        </header>
-      </div>
+      <header>
+        <div id="header">
+        </div>
+      </header>
       <div class="flex-column flex-center home-section">
         <div class="home-hello white-text">HELLO, I AM </div>
         <div class="home-first-name white-text">NEHA</div>
